@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-size: 14px;
+    font-family: "roboto";
 }
 
 *, *:before, *:after {
@@ -8,7 +10,39 @@ html, body {
 }
 .main {
     position: relative;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
-    left:40%;
+    width: 500px;
+    margin: auto;
+}
+body{
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  fon
+}
+.logo{
+  font-size: 50px;
+  color: grey;
+  opacity: 80%;
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+}
+.tag-line{
+  font-size: 20px;
+  color: grey;
+
+}
+.button{
+  background-color: #184ea5;
+  border: none;
+padding: 10px 20px;
+cursor: pointer;
+
+}
+.button:hover{
+  background: lavender;
+  color: grey;
+
 }
